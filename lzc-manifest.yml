@@ -1,0 +1,14 @@
+lzc-sdk-version: 0.1
+name: PocketBase
+package: com.lucasay.pocketbase
+version: 0.22.25
+description:
+license: https://choosealicense.com/licenses/mit/
+homepage: https://github.com/pocketbase/pocketbase
+author:
+application:
+  background_task: true
+  subdomain: pocketbase
+  routes:
+    # - /=file:///lzcapp/pkg/content/web
+    - /=exec://8090,/lzcapp/pkg/content/run.sh
