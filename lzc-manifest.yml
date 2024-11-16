@@ -12,3 +12,7 @@ application:
   routes:
     # - /=file:///lzcapp/pkg/content/web
     - /=exec://8090,/lzcapp/pkg/content/run.sh
+unsupported_platforms:
+  - ios
+  - android
+  - tvos
